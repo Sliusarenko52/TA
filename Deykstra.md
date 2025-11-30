@@ -1,8 +1,6 @@
 import heapq
 
 INF = float('inf')
-
-# Ваша матриця суміжності (Варіант 18)
 input_matrix = [
     # 1  2  3  4  5  6  7  8
     [0, 8, 2, 4, 0, 0, 0, 0], # Вершина 1
@@ -86,3 +84,4 @@ return dist, pred
 
 # Запуск алгоритму від вершини 1 (індекс 0)
 dijkstra_trace(input_matrix, 0)
+
